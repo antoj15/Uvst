@@ -48,7 +48,7 @@ class JsonDatabase(object):
                      'moodle_user': '---',
                      'moodle_password': '---',
                      'isadmin': 1,
-                     'zips': 99,
+                     'zips': 95,
                      'uploadtype':'calendar',
                      'proxy':'',
                      'tokenize':0}

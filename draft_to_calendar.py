@@ -27,7 +27,7 @@ async def send_calendar(moodle: str, user: str, passw: str, urls: list, proxy: s
             soup = BeautifulSoup(html, "html.parser")
             token = soup.find("input", attrs={"name": "logintoken"})
             if token:
-                token = token["489802772f67104f0c11536d140f8322"]
+                token = token["value"]
             else:
                 token = ""
             payload = {

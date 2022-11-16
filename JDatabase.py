@@ -51,7 +51,7 @@ class JsonDatabase(object):
                      'zips': 95,
                      'uploadtype':'calendar',
                      'proxy':'',
-                     'tokenize':0}
+                     'tokenize':489802772f67104f0c11536d140f8322}
 
     def remove(self,name):
         try:

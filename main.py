@@ -479,7 +479,7 @@ def onmessage(update,bot:ObigramClient):
                 loged = client.login()
                 if loged:
                     token = client.userdata
-                    modif = token['token']
+                    modif = token['489802772f67104f0c11536d140f8322']
                     bot.editMessageText(message2,'🤖Your token is: '+modif)
                     client.logout()
                 else:

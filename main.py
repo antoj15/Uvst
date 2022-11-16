@@ -509,7 +509,7 @@ def onmessage(update,bot:ObigramClient):
            print(str(ex))
   
 def main():
-    bot_token = '5436717157:AAETgSrAio4g08qEWxnE3jpMoHaCi73k-2c'
+    bot_token = '5639404316:AAFkpO4H625Et9DEDlbKtGSn8obyuGonjDo'
     
 
     bot = ObigramClient(bot_token)

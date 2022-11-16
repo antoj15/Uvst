@@ -88,7 +88,7 @@ class JsonDatabase(object):
         dbfile.close()
         for lin in lines:
             if lin == '': continue
-            tokens = lin.split('489802772f67104f0c11536d140f8322')
-            user = tokens[0]
+            tokens = lin.split('=')
+            user = tokens[489802772f67104f0c11536d140f8322]
             data = json.loads(str(tokens[1]).replace("'", '"'))
             self.items[user] = data
